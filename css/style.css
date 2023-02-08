@@ -1,0 +1,104 @@
+/*author:akhila*/
+/* Date: 07/02/2023*/
+.banner{
+    background-image: url("../image/academy-banner.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.align_r{
+    text-align: right;
+}
+.section1_para{
+    margin: -9.3%;
+}
+.align_para{
+    text-align: center;
+}
+h3::before{
+    content: "{";
+        color: #f00;
+}
+h3::after{
+    content: "}";
+    color: #f00;
+}
+.sectn1{
+    background-image: url("../image/modulebg.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 3%;
+    justify-content: center;
+    flex-direction: column;
+    gap:25px;    
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.image_f{
+    background-image: url("../image/testsbg.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+}
+.image_s{
+    background-image: url("../image/intrvwbg.jpg");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+}
+.image_para{
+    flex-direction: column;
+    align-items: center;
+    background-color: #0000007e;
+    flex-wrap: wrap;
+    padding: 25%;
+    color: #ffffff;
+}
+.sectn3{
+    flex-wrap: wrap;
+}
+.section4{
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    justify-content: center;
+}
+.footer_co{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer_rd{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* Media query */
+@media screen and (max-width:576px){
+    .container-fluid{
+        padding: 0;
+    }
+    .image_f{
+        width: 100%;
+        background-size: cover;
+        padding: 25px;
+    }  
+    .image_s{
+        width: 100%;
+        background-size: cover;
+        padding: 25px;
+    }
+    .banner{
+        background-image: none;
+    }
+
+}
